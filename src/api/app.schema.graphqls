@@ -45,9 +45,6 @@ type Mutation {
 
   # Atualiza um post existente
   updatePost(id: ID!, title: String, content: String): Post!
-
-  # Deleta um post pelo ID
-  deletePost(id: ID!): Post!
 }
 
 # Define os tipos de entrada para as mutações
